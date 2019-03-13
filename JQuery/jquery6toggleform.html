@@ -1,0 +1,51 @@
+<html><head>
+        <title>
+            Toggle | Js
+        </title>
+        <style type="text/css">
+            label,input{
+                display: block;
+            }
+            </style>
+        <script type="text/javascript" src='https://code.jquery.com/jquery-3.3.1.min.js'></script>
+        <meta charset="utf-8">
+        <script type="text/javascript" src="jquery6i.js"></script>
+        <script type="text/javascript">
+        $(document).ready(()=>{
+	$('#on').click(()=>{
+		$('#off').show();
+		$('#on').hide();
+		$('#content').show();
+	});
+	$('#off').click(()=>{
+		$('#off').hide();
+		$('#on').show();
+	  $('#content').hide();
+    });
+    
+});
+    </script>
+    </head>
+    
+    <body>
+    <input type="button" id='on' value="On"/>
+    <input type="button" id='off' value="Off" style='display:none'/>
+    <div style='display:none' id='content'>
+        
+            <div><h2>Login</h2></div>
+            <div class="form-area">
+                <form>
+                    <label class="label">Name:</label>
+                    <input type="text" name="" id="name">
+                    <label class="label">Password:</label>
+                    <input type="password" name="" id="pass">
+                    <label class="label">Email:</label>
+                    <input type="text" name="" id="email">
+                    <input type="submit" name="" value="Register" id="register">
+                    <br>
+                    <span id="err"></span>
+                    </form>
+            </div>
+            </div>
+    </body>
+    </html>

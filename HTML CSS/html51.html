@@ -1,0 +1,82 @@
+<html>
+<head>
+    <style type="text/css">
+    .fixed{
+        position: fixed;
+        height: 50px;
+        width: 100px;
+        z-index: 50;
+    }
+    .scrollable{
+        position: absolute;
+        height: 59px;
+        margin-top: 100px;
+    }
+    </style>
+</head> 
+<body style="background-color:lightblue"> 
+  <h1 align="center"> LOGIN PAGE </h1>
+   <div align="center">
+        <nav>
+            <a href="html5.html">Home</a>
+            <a href="aboutus.html">About us</a>
+            <a href="contactus.html">Contact us</a>
+        </nav>
+    </div><br><br>
+    <marquee direction="right" behavior="alternate" scrolldelay="60"><h1 style="color:red">REGISTER NOW !!!!!</h1></marquee>
+	<br><br>	
+    
+    <div class='scrollable'>
+    <form align="extreme left">
+        <div>
+            Username:<input type="text" name="username" required placeholder="username" />
+        </div><br>
+        <div>
+        Password:<input type="password" name="password"/>
+    </div><br>
+    <!-- HTML5 new elements-->
+    <div>
+        DOB: <input type="date" name="dob"/>
+    </div><br>
+    <div>
+        Current Date Time : <input type="datetime" name="currentdt"/>
+    </div><br>
+    <div>
+       Local Date Time: <input type="datetime-local" name="localdt"/>
+    </div><br>
+    <div>
+        Age : <input type="range" name="age" min="10" max="100" value="10"/> 
+    </div><br>
+	<div>
+        Time : <input type="time" name="time" value="15:10:00" />
+    </div><br>
+    <div>
+        DOB Month : <input type="month" name="month"/>
+        DOB Week :  <input type="week" name="week"/>
+    </div><br>
+    <div>
+        <input type="file" name="pic" multiple/>
+    </div><br>
+    <div>
+        Choose your favourite color:<input type="color" name="color" value="#CCCCCC"/>
+    </div><br>
+   
+    <div>
+        <input type="submit" name="Register" value="Register" formaction="submit.html" formmethod="POST"/>
+    </div><br>
+    </form>
+    </div>
+    <!--Multi media-->
+    <div align="center" class='fixed'>
+        <!-- audio -->
+        <audio controls>
+            <source src="sample.mp3" type="audio/mp3">
+        </audio>
+        <div class='holder'>
+        <video controls autoplay>
+            <source src="sample.mp4" type="video/mp4">
+        </video>
+        </div>
+    </div>
+	</body>
+</html>

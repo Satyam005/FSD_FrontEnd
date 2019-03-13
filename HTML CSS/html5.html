@@ -1,0 +1,56 @@
+<html>
+    <div>
+        <nav>
+            <a href="html5.html">Home</a>
+            <a href="aboutus.html">About us</a>
+            <a href="contactus.html">Contact us</a>
+        </nav>
+    </div>
+    <form>
+        <div>
+            Username:<input type="text" name="username" required placeholder="username" />
+        </div>
+        <div>
+        Password:<input type="password" name="password"/>
+    </div>
+    <!-- HTML5 new elements-->
+    <div>
+        DOB: <input type="date" name="dob"/>
+    </div>
+    <div>
+        Current Date Time : <input type="datetime" name="currentdt"/>
+    </div>
+    <div>
+       Local Date Time: <input type="datetime-local" name="localdt"/>
+    </div>
+    <div>
+        Age : <input type="range" name="age" min="10" max="100" value="10"/> 
+    </div><div>
+        Time : <input type="time" name="time" value="15:10:00" />
+    </div>
+    <div>
+        DOB Month : <input type="month" name="month"/>
+        DOB Week :  <input type="week" name="week"/>
+    </div>
+    <div>
+        <input type="file" name="pic" multiple/>
+    </div>
+    <div>
+        Choose your favourite color:<input type="color" name="color" value="#CCCCCC"/>
+    </div>
+   
+    <div>
+        <input type="submit" name="Register" value="Register" formaction="submit.html" formmethod="POST"/>
+    </div>
+    </form>
+    <!--Multi media-->
+    <div>
+        <!-- audio -->
+        <audio controls>
+            <source src="sample.mp3" type="audio/mp3">
+        </audio>
+        <video controls autoplay>
+            <source src="sample.mp4" type="video/mp4">
+        </video>
+    </div>
+</html>

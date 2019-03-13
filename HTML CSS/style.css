@@ -1,0 +1,68 @@
+body{
+    background-color: aquamarine;
+
+}
+div{
+    display: inline;
+    border: 2px solid rebeccapurple;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding: 5px 5px 5px 5px;
+    text-decoration: none;
+    color: green;
+}
+div.show{
+    color: black;
+    font-weight: bolder;
+}
+.hide{
+    color: blueviolet;
+    font-style: italic;
+    font-size: 2em;
+}
+#span1{
+    font-style: normal;
+    color: blue;
+}
+img{
+    margin-top: 15px;
+    background-color: green;
+    border-radius: 10px;
+    border: 1px solid;
+}
+a{
+    text-decoration: none;
+}
+div a {
+    color: green;
+    
+}
+.outer span.inner h2.h2{
+    font-size: 2em;
+}
+.outer span:first-child{
+    font-size: 3em;
+    color: blue;
+}
+table{
+    margin-top: 20px;
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: aliceblue;
+    text-align: center;
+    width: 50%;
+    height: 30%;
+}
+tr:nth-child(even){
+    background-color:rgb(84, 114, 163,0.25);
+}
+tr{
+    vertical-align: top;
+}
+td{
+    padding: 5px 5px 5px 5px;
+}
+span{
+    background-color: aqua;
+}

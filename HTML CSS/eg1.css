@@ -1,0 +1,69 @@
+html {
+	margin: 0 auto;
+	padding: 0 0 0 0;
+}
+
+body {
+	margin: 0 auto;
+	padding: 0 0 0 0;
+}
+
+div.Container {
+	width: 100%;
+	margin: 0 auto;
+	font-family: Arial, Helvetica, Verdana;
+	font-size: 1.25em;
+	font-style: none;
+}
+
+div.PageHeader {
+	background: green;
+	border: 1px solid black;
+	float: left;
+	width: 98%;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+div.Level1 {
+	background: grey;
+	border: 1px solid black;
+	float: left;
+	width: 98%;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+div.NavigationLeft {
+	background: blue;
+	margin: 0;
+	padding: 5px;
+	border-right: 1px solid black;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+	height: 100%;
+	width: 16%;
+	float: left;
+}
+
+div.MainContent {
+	background: red;
+	padding: 5px;
+	border-right: 1px solid black;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+	height: 100%;
+	width: 80%;
+	float: right;
+}
+
+div.Footer {
+	background: yellow;
+	padding: 5px;
+	border-right: 1px solid black;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+	width: 98%;
+	float: left;
+}
+	

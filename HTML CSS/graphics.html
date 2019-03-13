@@ -1,0 +1,36 @@
+<html>
+    <body>
+       <!-- <svg>
+            <circle cx="100" cy="100" r="50" 
+            fill="green" stroke="blue">
+            </circle>
+            <text x="90" y="90" >Hello</text>
+            
+        </svg>-->
+        <svg>
+            <!--<rect x="0" y="0" width="50" height="50" />-->
+           <rect x="50" y="20" width="100" height="100">
+                <animate attributeType="XML" attributeName="y"
+                dur="10s" from="-50" to="100" repeatCount="indefinite" />
+            </rect>
+
+            <rect x="10" y="10" width="100" height="100">
+                    <animate attributeType="XML" attributeName="x" from="-100" to="120"
+                        dur="10s" repeatCount="indefinite" />
+            </rect>
+        </svg>
+        <svg>
+            <defs>
+                <linearGradient id="grad-rect">
+                    <stop offset="10%" stop-color="blue" />
+                    <stop offset="10%" stop-color="purple" />
+                    <stop offset="80%" stop-color="white" />
+                
+                </linearGradient>
+            </defs>
+            <rect x="100" y="100" width="100" height="100" fill="url(#grad-rect)">
+
+            </rect>
+        </svg>
+    </body>
+</html>

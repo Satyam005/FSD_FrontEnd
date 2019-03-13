@@ -1,0 +1,46 @@
+table{
+    border: 2px dotted rgb(0,0, 0,0.50);
+    border-radius: 5px;
+    margin: 10 10 10 10px;
+    padding: 5 5 5 5px;
+    font-size: 0.9em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+}
+input[type=text],input[type=password]{
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    width: 5em;
+    height: 2.5em;
+    border: 1px solid pink;
+    border-radius: 3px;
+    background-color:rgb(6,130, 190,0.15);
+    box-shadow: inset 0px 0px 20px 10p rgb(0,0,0,0.20);
+    -webkit-box-shadow: inset 0px 0px 20px 10p rgb(0,0,0,0.20); /* Firefox chrome safari*/
+    -moz-box-shadow: inset 0px 0px 20px 10p rgb(0,0,0,0.20); /* Firefox */
+}
+input[type=text]:focus,input[type=password]:focus {
+    width: 100%;
+  }
+.button{
+    background: url('navpsrite.gif') 0 0 no-repeat;
+    top: 0px;
+    left: 0px;
+    width: 45px;
+    height: 30px;
+    background-size: 100%; 
+}
+.href-img{
+    width: 15%;
+    height: 10%;
+}
+.href-submit{
+
+}
+.content{
+    width: 100px;
+    height: 130px;
+    overflow:auto;
+    scroll-behavior: auto;
+    text-shadow: 3px 4px 5px #000;
+}

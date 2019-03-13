@@ -1,0 +1,100 @@
+<html>
+    <head>
+        <title>Tables</title>
+        <!--disable cache-->
+        <meta http-equiv="Cache-control" content="no-cache">
+        <meta http-equiv="Cache-control" content="no-store">
+        <meta name="expires" content="0">
+
+        <style type="text/css">
+        table,tbody,tr,td,th {
+            border: 2px solid rgb(165, 7, 7);
+            border-radius: 5px;
+        }
+        table{
+            margin-top : 10px;
+            margin-left: 5px;
+            margin-right: 5px;
+            margin-bottom: 10px;
+        }
+        tr,td,th{
+            border-color: violet; 
+            padding: 5px 5px 5px 5px;
+        }
+        .col1 {
+            background-color: #CCCCCC; 
+        }
+        .col2{
+            background-color: #FFFFFF;
+            color: red;
+        }
+        a:link {
+            text-decoration: none;
+            color: black;
+            font-style: italic;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 15px;
+            font-weight: bold;
+        }
+        a:visited{
+            color:deepskyblue;
+        }
+        a:hover{
+            color: brown;
+        }
+        </style>
+    </head>
+    <body>
+        <table>
+            <tbody>
+                <tr>
+                    <th class="col1">Name</th>
+                    <td><input type="text" name="name" placeholder="please fill ur name"/></td>
+                </tr>
+                <tr>
+                    <th class="col2">Email</th>
+                    <td><input type="email" name="email" placeholder="please fill ur email"/> </td>
+                </tr>
+                <tr>
+                    <td>
+                        <!-- anchor tag-->
+                        <a href="https://www.google.com" target="blank">Google.com</a>
+                    </td>
+                    <td>
+                        <!-- list elements-->
+                        <!--unordered-->
+                        <ul>
+                            <li>Hello</li>
+                            <li>Hi</li>
+                            <li>Hey</li>
+                        </ul>
+                        <!--ordered-->
+                        <ol>
+                            <li>One</li>
+                            <li>Two</li>
+                            <li>Three</li>
+                        </ol>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="text-align: center">
+                        <input type="button" name="Save" value="Save"/>
+                        <input type="reset" name="Reset" value="Reset"/>
+                    </td>
+                </tr>
+                <!--<tr>
+                    <td></td>
+                    <td></td>
+                </tr>-->
+            </tbody>
+        </table>
+        <div>
+            <!-- iframe-->
+            <iframe src="html5.html" width="700" height="200">
+            </iframe>
+            <!-- youtube video-->
+            <iframe src="https://www.youtube.com/embed/7cUELYuzRGc" width="300" height="300"> 
+            </iframe>
+        </div>
+    </body>
+</html>
